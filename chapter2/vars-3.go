@@ -45,10 +45,11 @@ func main() {
 
 	/*
 		타입 변환 시 메모리 바이트 변경으로 값이 완전히 달라질 수 있음
+		-> =>
 	*/
 
 	var h int16 = 3456
-	var i int8 = int8(h) // int16를 int8로 변환 시 값이 달라짐
+	var i int8 = int8(h) // int16를 int8로 변환 시 값이 달라짐 (-128 출력)
 
 	fmt.Println(
 		"vars h type:", reflect.TypeOf(h), "and value is:", h, "\n",
