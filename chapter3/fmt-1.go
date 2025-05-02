@@ -41,5 +41,9 @@ func main() {
 	fmt.Printf("최소 너비 지정 0채우기, 총 숫자 2자리: %08.2g\n", d)
 	fmt.Printf("최소 너비 지정, 총 숫자 5자리: %8.5g\n", d)
 	fmt.Printf("소수점 이하 6자리: %f\n", e)
-
+	fmt.Println("=====특수문자 출력=====")
+	stringify_special_char := "Hello\tGo\tWorld\n\"Go\"is Awesome!\n"
+	fmt.Print(stringify_special_char)
+	fmt.Printf("%s", stringify_special_char)
+	fmt.Printf("%q", stringify_special_char)
 }
