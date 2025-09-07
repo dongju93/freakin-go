@@ -1,5 +1,3 @@
-// Recursive Call 11:12
-
 package main
 
 import "fmt"
