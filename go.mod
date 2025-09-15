@@ -1,4 +1,4 @@
-module github.com/dong-ju/freakin-go
+module github.com/dongju93/freakin-go
 
 go 1.25.1
 
